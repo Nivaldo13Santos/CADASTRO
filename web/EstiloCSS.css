@@ -1,0 +1,208 @@
+*{
+margin:0;
+padding:0;
+box-sizing: boder-box;
+font-family:Arial, Helvetica, sans-serif;
+color: black;
+
+
+
+}
+
+body {
+    padding-top:5vh;
+    background-image:url("img/3941553861dd45ec0b300b50b9eab5f4.jpg");
+    background-size: cover;
+    background-position-y: -150px;
+    font:16px"Arial";
+    
+    
+
+   
+
+   
+}
+
+nav a {
+
+        color: white;
+                 background-color: black;
+        padding: 30px;
+                
+        
+        
+             }
+
+
+           
+
+nav a{
+
+    position: relative;
+        left: 10%;
+        transform: translateX(-30%);
+        top: 9px;
+}
+
+
+@media  screen and (min-width: 768px) {
+    /* .menu { width:600px; } */
+    }
+
+    nav a   {
+
+flex-direction: row;
+justify-content: space-around;
+
+    }
+        
+ 
+   nav ul li{
+
+flex-direction: row;
+width: 50%;
+
+
+
+   } 
+  
+
+nav a:hover {
+
+color: red;
+
+
+
+}
+
+nav a {/*menu Carros,Despachante etc...*/
+
+text-decoration: none;
+display: inline-block;
+padding: 20px 0;
+width: 20%;
+text-align: center;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+top: 10%;
+
+
+
+
+}
+
+
+
+
+form {
+
+position: relative;
+top: -10px;
+
+
+
+}
+
+form {
+
+
+
+width: 35px;
+background-color:silver ;
+border-radius: 20px 20px 20px 20px;
+padding: 10px 64px;
+border: 1px;
+width:400px;
+display: auto;
+flex-direction: column;
+margin: 32px 64px;
+padding: 32px, 64px;
+flex-direction: row;
+
+
+
+
+}
+
+
+input {
+
+margin-bottom: 24px;
+position: relative;
+
+
+}
+
+input button{
+
+appearance: none;
+
+}
+
+select{
+   
+    padding: 4px;width: 350px;display: block;
+
+}
+
+form h1 {
+
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 1.6rem;
+
+}
+
+form input {
+    
+    border-radius: 25px;
+    border-color: black;
+    
+    
+}
+
+
+form input {
+
+    padding: 4px;width: 350px;display: block;
+
+
+}
+form textarea{
+
+width: 354;display: block;
+
+}
+
+form .btn{
+
+width: 150px;cursor: pointer;
+
+}
+
+head{
+
+
+height: 600px;
+height: 60vh;
+justify-content: center;
+
+
+}
+
+
+
+
+hr{
+
+margin-right: 0px;
+margin-left: 0px;
+
+}
+
+
+
+
+
+    
+
