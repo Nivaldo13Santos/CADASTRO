@@ -45,14 +45,16 @@ public class ServletProduto extends HttpServlet {
         Produto prod = new Produto();
         prod.setNOMEVEICULO(request.getParameter("NOMEVEICULO"));
         prod.setMODELOVEICULO(request.getParameter("MODELOVEICULO"));
-        prod.setInteger.parseIntNUMERO_DOC(request.getParameter("NUMERO_DOC"));
+        prod.setNUMERO_DOC(Integer.parseInt(request.getParameter("NUMERO_DOC")));
         prod.setESTADO(request.getParameter("ESTADO"));
         prod.setCIDADE(request.getParameter("CIDADE"));
         prod.setPVEICULO(request.getParameter("PVEICULO"));
-        prod.set.(request.getParameter("ANOVEIC"));
-        prod.setDouble.valueOF(str).doubleValue()VALORTOTAL(request.getParameter("VALORTOTAL"));
+        prod.setANOVEIC(Integer.parseInt(request.getParameter("ANOVEIC")));
+        prod.setVALORTOTAL(Double.parseDouble(request.getParameter("VALORTOTAL")));
+       // prod.setDouble.valueOF(str).doubleValue()VALORTOTAL(request.getParameter("VALORTOTAL"));
         prod.setOBS(request.getParameter(request.getParameter("OBS")));
-        prod.setV_VENDIDO(request.getParameter(request.getParameter("V_VENDIDO")));
+        prod.setV_VENDIDO(Integer.parseInt(request.getParameter("V_VENDIDO")));
+       // prod.setV_VENDIDO(request.getParameter(request.getParameter("V_VENDIDO")));
         
         
        /* finally {

@@ -8,7 +8,6 @@ import java.sql.PreparedStatement;
 import java.sql.Statement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.util.ArrayList;
 
 
 public class ProdutoDAO{
@@ -22,22 +21,13 @@ private CallableStatement cf;
 
 /*private final ArrayList<Produto>Lista=new ArrayList<>();*/
 
-
-
-
-
-
-  
    public void ProdutoDAO(){
     conn = new ConnectionFactory().getConexao();
-    
-   
-     
-  
+
   }  
    
    public String procproduto(Produto prod)
-           throws  SQLException{ Strinf sql="{CALL sp_insere_produto()?,?,?,?,?,?,?,?,?,?}";
+           throws  SQLException{ String sql="{CALL sp_insere_produto()?,?,?,?,?,?,?,?,?,?}";
            CallableStatement cf=c.prepareCall(sql);
           
      stmt.setString(1, PRODUTO.getNOMEVEICULO());
@@ -53,7 +43,7 @@ private CallableStatement cf;
      stmt.execute();
      stmt.close();
    
-   
+   }
   
  /*public void Inserir(Produto PRODUTO){
  
@@ -224,9 +214,9 @@ try{
 	}
 	
 
- }
+ }*/
   }
-}
+
 
 
 

@@ -13,8 +13,8 @@ public class Produto {
    private int NUMERO_DOC;
    private String ESTADO;
    private String CIDADE;
-   private char PVEICULO;
-   private char ANOVEIC;
+   private String PVEICULO;
+   private int ANOVEIC;
    private double VALORTOTAL;
    private String OBS;
    private int V_VENDIDO;
@@ -69,19 +69,19 @@ public class Produto {
         this.CIDADE = CIDADE;
     }
 
-    public char getPVEICULO() {
+    public String getPVEICULO() {
         return PVEICULO;
     }
 
-    public void setPVEICULO(char PVEICULO) {
+    public void setPVEICULO(String PVEICULO) {
         this.PVEICULO = PVEICULO;
     }
 
-    public char getANOVEIC() {
+    public int getANOVEIC() {
         return ANOVEIC;
     }
 
-    public void setANOVEIC(char ANOVEIC) {
+    public void setANOVEIC(int ANOVEIC) {
         this.ANOVEIC = ANOVEIC;
     }
 
