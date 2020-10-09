@@ -18,6 +18,8 @@ public class Produto {
    private double VALORTOTAL;
    private String OBS;
    private int V_VENDIDO;
+    Object set;
+  
 
     public int getID_PRODUTO() {
         return ID_PRODUTO;

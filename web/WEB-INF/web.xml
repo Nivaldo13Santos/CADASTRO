@@ -4,9 +4,41 @@
         <servlet-name>CadasdroFornecedoresServlet</servlet-name>
         <servlet-class>CadasdroFornecedoresServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>ServletProduto</servlet-name>
+        <servlet-class>Produto</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Produto</servlet-name>
+        <servlet-class>Produto</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>model.ServletProduto</servlet-name>
+        <servlet-class>model.ServletProduto</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Servletproduto</servlet-name>
+        <servlet-class>produto</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>CadasdroFornecedoresServlet</servlet-name>
         <url-pattern>/CadasdroFornecedoresServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ServletProduto</servlet-name>
+        <url-pattern>/Executainserirjsp</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Produto</servlet-name>
+        <url-pattern>/executainserirjsp</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>model.ServletProduto</servlet-name>
+        <url-pattern>/executainserir</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Servletproduto</servlet-name>
+        <url-pattern>/executainserirjjsp</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
